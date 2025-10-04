@@ -1,0 +1,774 @@
+Created log file at "/tmp/Alacritty-3155.log"
+[0.000011454s] [INFO ] [alacritty] Welcome to Alacritty
+[0.000164407s] [INFO ] [alacritty] Version 0.15.1 (0c405d53)
+[0.000202680s] [INFO ] [alacritty] Running on X11
+[0.000411785s] [INFO ] [alacritty_config_derive] No config file found; using default
+[0.060754654s] [INFO ] [alacritty] Using GLX 1.4
+[0.094345168s] [INFO ] [alacritty] Window scale factor: 1
+[0.142698663s] [INFO ] [alacritty] Running on Mesa Mobile Intel® GM45 Express Chipset (CTG)
+[0.142769343s] [INFO ] [alacritty] OpenGL version OpenGL ES 2.0 Mesa 25.1.1-arch1.1, shader_version OpenGL ES GLSL ES 1.0.16
+[0.142802936s] [INFO ] [alacritty] Using OpenGL ES 2.0 renderer
+[0.143126302s] [INFO ] [alacritty] Running on OpenGL ES context
+[0.143149489s] [INFO ] [alacritty] Using dual source blending
+[0.209953515s] [INFO ] [alacritty] Cell size: 9 x 18
+[0.210028175s] [INFO ] [alacritty] Padding: 0 x 0
+[0.210053667s] [INFO ] [alacritty] Width: 800, Height: 600
+[0.213685274s] [INFO ] [alacritty] PTY dimensions: 33 x 88
+[0.221166672s] [INFO ] [alacritty] Initialisation complete
+[0.250574602s] [INFO ] [alacritty_winit_event] Ime(Disabled)
+[0.250706951s] [INFO ] [alacritty_winit_event] Ime(Enabled)
+[0.252375599s] [INFO ] [alacritty_winit_event] Resized(PhysicalSize { width: 625, height: 764 })
+[0.252503758s] [INFO ] [alacritty_winit_event] Focused(false)
+[0.252542660s] [INFO ] [alacritty_winit_event] Occluded(false)
+[0.252606564s] [INFO ] [alacritty_winit_event] Moved(PhysicalPosition { x: 645, y: 26 })
+[0.252752183s] [INFO ] [alacritty_winit_event] Focused(true)
+[0.253182057s] [INFO ] [alacritty_winit_event] ModifiersChanged(Modifiers { state: ModifiersState(0x0), pressed_mods: ModifiersKeys(0x0) })
+[0.253288355s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: -133.0, y: 468.0 } }
+[0.253386622s] [INFO ] [alacritty_winit_event] RedrawRequested
+[0.265581119s] [INFO ] [alacritty] Padding: 0 x 0
+[0.266227640s] [INFO ] [alacritty] Width: 625, Height: 764
+[0.281414767s] [INFO ] [alacritty_winit_event] About to wait
+[0.281715503s] [INFO ] [alacritty_winit_event] About to wait
+[0.298184707s] [INFO ] [alacritty_winit_event] About to wait
+[0.298348624s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[0.298393253s] [INFO ] [alacritty_winit_event] About to wait
+[0.518612877s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[0.518761918s] [INFO ] [alacritty_winit_event] RedrawRequested
+[0.524229094s] [INFO ] [alacritty_winit_event] About to wait
+[0.524389310s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[0.524431424s] [INFO ] [alacritty_winit_event] About to wait
+[0.531436575s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Title(nat@archlinux:~)) }
+[0.531539661s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[0.531582543s] [INFO ] [alacritty_winit_event] RedrawRequested
+[0.537780538s] [INFO ] [alacritty_winit_event] About to wait
+[0.537960449s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[0.538023236s] [INFO ] [alacritty_winit_event] About to wait
+[0.539449395s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[0.539567427s] [INFO ] [alacritty_winit_event] RedrawRequested
+[0.546620070s] [INFO ] [alacritty_winit_event] About to wait
+[0.548134019s] [INFO ] [alacritty_winit_event] About to wait
+[0.548274261s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[0.548329086s] [INFO ] [alacritty_winit_event] About to wait
+[0.606418456s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[0.606520355s] [INFO ] [alacritty_winit_event] RedrawRequested
+[0.610697981s] [INFO ] [alacritty_winit_event] About to wait
+[0.610853238s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[0.610936908s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[0.610995644s] [INFO ] [alacritty_winit_event] RedrawRequested
+[0.613046883s] [INFO ] [alacritty_winit_event] About to wait
+[0.614687245s] [INFO ] [alacritty_winit_event] About to wait
+[0.614762534s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[0.614795848s] [INFO ] [alacritty_winit_event] About to wait
+[1.609191993s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[1.609299689s] [INFO ] [alacritty_winit_event] RedrawRequested
+[1.610888787s] [INFO ] [alacritty_winit_event] About to wait
+[1.611031264s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[1.611069886s] [INFO ] [alacritty_winit_event] About to wait
+[2.612250273s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[2.612359365s] [INFO ] [alacritty_winit_event] RedrawRequested
+[2.614033321s] [INFO ] [alacritty_winit_event] About to wait
+[2.614179080s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[2.614217353s] [INFO ] [alacritty_winit_event] About to wait
+[3.615307226s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[3.615413664s] [INFO ] [alacritty_winit_event] RedrawRequested
+[3.616997944s] [INFO ] [alacritty_winit_event] About to wait
+[3.617143912s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[3.617186236s] [INFO ] [alacritty_winit_event] About to wait
+[4.618412300s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[4.618520275s] [INFO ] [alacritty_winit_event] RedrawRequested
+[4.620130605s] [INFO ] [alacritty_winit_event] About to wait
+[4.620272034s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[4.620310446s] [INFO ] [alacritty_winit_event] About to wait
+[5.621447253s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[5.621556974s] [INFO ] [alacritty_winit_event] RedrawRequested
+[5.623161507s] [INFO ] [alacritty_winit_event] About to wait
+[5.623302377s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[5.623338555s] [INFO ] [alacritty_winit_event] About to wait
+[6.624519781s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[6.624623774s] [INFO ] [alacritty_winit_event] RedrawRequested
+[6.626232498s] [INFO ] [alacritty_winit_event] About to wait
+[6.626370784s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[6.626408987s] [INFO ] [alacritty_winit_event] About to wait
+[7.627546981s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[7.627706778s] [INFO ] [alacritty_winit_event] RedrawRequested
+[7.629265216s] [INFO ] [alacritty_winit_event] About to wait
+[7.629401616s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[7.629437515s] [INFO ] [alacritty_winit_event] About to wait
+[8.630493096s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[8.630600512s] [INFO ] [alacritty_winit_event] RedrawRequested
+[8.632215941s] [INFO ] [alacritty_winit_event] About to wait
+[8.632357090s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[8.632395014s] [INFO ] [alacritty_winit_event] About to wait
+[9.633570163s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[9.633735129s] [INFO ] [alacritty_winit_event] RedrawRequested
+[9.635301599s] [INFO ] [alacritty_winit_event] About to wait
+[9.635465097s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[9.635535078s] [INFO ] [alacritty_winit_event] About to wait
+[10.636704920s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[10.636806399s] [INFO ] [alacritty_winit_event] RedrawRequested
+[10.638372869s] [INFO ] [alacritty_winit_event] About to wait
+[10.638512691s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[10.638549358s] [INFO ] [alacritty_winit_event] About to wait
+[11.639750698s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[11.639858323s] [INFO ] [alacritty_winit_event] RedrawRequested
+[11.641426051s] [INFO ] [alacritty_winit_event] About to wait
+[11.641563778s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[11.641602190s] [INFO ] [alacritty_winit_event] About to wait
+[12.642841175s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[12.642946635s] [INFO ] [alacritty_winit_event] RedrawRequested
+[12.644631416s] [INFO ] [alacritty_winit_event] About to wait
+[12.644851067s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[12.644899816s] [INFO ] [alacritty_winit_event] About to wait
+[13.645865093s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[13.645966433s] [INFO ] [alacritty_winit_event] RedrawRequested
+[13.647527106s] [INFO ] [alacritty_winit_event] About to wait
+[13.647709601s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[13.647760585s] [INFO ] [alacritty_winit_event] About to wait
+[14.649008579s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[14.649114249s] [INFO ] [alacritty_winit_event] RedrawRequested
+[14.650697481s] [INFO ] [alacritty_winit_event] About to wait
+[14.650838700s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[14.650876694s] [INFO ] [alacritty_winit_event] About to wait
+[15.652098078s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[15.652202351s] [INFO ] [alacritty_winit_event] RedrawRequested
+[15.653784326s] [INFO ] [alacritty_winit_event] About to wait
+[15.653922402s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[15.653960396s] [INFO ] [alacritty_winit_event] About to wait
+[16.655158384s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[16.655265241s] [INFO ] [alacritty_winit_event] RedrawRequested
+[16.656822841s] [INFO ] [alacritty_winit_event] About to wait
+[16.656959870s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[16.656998352s] [INFO ] [alacritty_winit_event] About to wait
+[17.658255076s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[17.658358581s] [INFO ] [alacritty_winit_event] RedrawRequested
+[17.659953966s] [INFO ] [alacritty_winit_event] About to wait
+[17.660095324s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[17.660132829s] [INFO ] [alacritty_winit_event] About to wait
+[18.661317687s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[18.661422868s] [INFO ] [alacritty_winit_event] RedrawRequested
+[18.662984798s] [INFO ] [alacritty_winit_event] About to wait
+[18.663124271s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[18.663160379s] [INFO ] [alacritty_winit_event] About to wait
+[19.513449232s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(KeyY), logical_key: Character("y"), text: Some("y"), location: Standard, state: Pressed, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: Some("y"), key_without_modifiers: Character("y") } }, is_synthetic: false }
+[19.513604210s] [INFO ] [alacritty_winit_event] About to wait
+[19.520832224s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[19.520934891s] [INFO ] [alacritty_winit_event] RedrawRequested
+[19.522887234s] [INFO ] [alacritty_winit_event] About to wait
+[19.523066237s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[19.523122040s] [INFO ] [alacritty_winit_event] About to wait
+[19.530501680s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[19.530624601s] [INFO ] [alacritty_winit_event] RedrawRequested
+[19.535619509s] [INFO ] [alacritty_winit_event] About to wait
+[19.535832525s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[19.535874500s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[19.535905160s] [INFO ] [alacritty_winit_event] RedrawRequested
+[19.538025123s] [INFO ] [alacritty_winit_event] About to wait
+[19.541566634s] [INFO ] [alacritty_winit_event] About to wait
+[19.541654146s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[19.541693676s] [INFO ] [alacritty_winit_event] About to wait
+[19.616175075s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(KeyY), logical_key: Character("y"), text: Some("y"), location: Standard, state: Released, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: Some("y"), key_without_modifiers: Character("y") } }, is_synthetic: false }
+[19.616267544s] [INFO ] [alacritty_winit_event] About to wait
+[20.508757155s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowRight), logical_key: Named(ArrowRight), text: None, location: Standard, state: Pressed, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowRight) } }, is_synthetic: false }
+[20.508854234s] [INFO ] [alacritty_winit_event] About to wait
+[20.510041466s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.510131422s] [INFO ] [alacritty_winit_event] RedrawRequested
+[20.511964825s] [INFO ] [alacritty_winit_event] About to wait
+[20.512127276s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[20.512183359s] [INFO ] [alacritty_winit_event] About to wait
+[20.514397816s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.514478483s] [INFO ] [alacritty_winit_event] RedrawRequested
+[20.516081131s] [INFO ] [alacritty_winit_event] About to wait
+[20.524568104s] [INFO ] [alacritty_winit_event] About to wait
+[20.524688301s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[20.524726434s] [INFO ] [alacritty_winit_event] About to wait
+[20.614293900s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowRight), logical_key: Named(ArrowRight), text: None, location: Standard, state: Released, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowRight) } }, is_synthetic: false }
+[20.614390211s] [INFO ] [alacritty_winit_event] About to wait
+[20.923030716s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(Enter), logical_key: Named(Enter), text: Some("\r"), location: Standard, state: Pressed, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: Some("\r"), key_without_modifiers: Named(Enter) } }, is_synthetic: false }
+[20.923165579s] [INFO ] [alacritty_winit_event] About to wait
+[20.926693193s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.926789853s] [INFO ] [alacritty_winit_event] RedrawRequested
+[20.928815949s] [INFO ] [alacritty_winit_event] About to wait
+[20.928976654s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.929027009s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[20.929065631s] [INFO ] [alacritty_winit_event] RedrawRequested
+[20.931758362s] [INFO ] [alacritty_winit_event] About to wait
+[20.932083892s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.932160578s] [INFO ] [alacritty_winit_event] About to wait
+[20.940806510s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Title(yazi)) }
+[20.940924192s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.940961069s] [INFO ] [alacritty_winit_event] About to wait
+[20.941122472s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[20.941182396s] [INFO ] [alacritty_winit_event] RedrawRequested
+[20.944590860s] [INFO ] [alacritty_winit_event] About to wait
+[20.944870295s] [INFO ] [alacritty_winit_event] About to wait
+[20.957804831s] [INFO ] [alacritty_winit_event] About to wait
+[20.957975383s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[20.958026786s] [INFO ] [alacritty_winit_event] About to wait
+[20.961399142s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(ColorRequest(257)) }
+[20.961486095s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(PtyWrite([?6c)) }
+[20.961514171s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.961546019s] [INFO ] [alacritty_winit_event] RedrawRequested
+[20.963361054s] [INFO ] [alacritty_winit_event] About to wait
+[20.974539710s] [INFO ] [alacritty_winit_event] About to wait
+[20.974861748s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[20.974916853s] [INFO ] [alacritty_winit_event] About to wait
+[20.979312524s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(PtyWrite([?12;2$y)) }
+[20.979387324s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(PtyWrite([?0u)) }
+[20.979414562s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(PtyWrite([?6c)) }
+[20.979439006s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(MouseCursorDirty) }
+[20.979463521s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(MouseCursorDirty) }
+[20.979488314s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(MouseCursorDirty) }
+[20.979513038s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.979544676s] [INFO ] [alacritty_winit_event] RedrawRequested
+[20.986724779s] [INFO ] [alacritty_winit_event] About to wait
+[20.986897497s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.986956513s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.986988430s] [INFO ] [alacritty_winit_event] About to wait
+[20.987377097s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.987470754s] [INFO ] [alacritty_winit_event] About to wait
+[20.989460392s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.989616558s] [INFO ] [alacritty_winit_event] About to wait
+[20.990760488s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.990875656s] [INFO ] [alacritty_winit_event] About to wait
+[20.991097682s] [INFO ] [alacritty_winit_event] About to wait
+[20.991196018s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[20.991251263s] [INFO ] [alacritty_winit_event] RedrawRequested
+[20.999554553s] [INFO ] [alacritty_winit_event] About to wait
+[20.999763588s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(Enter), logical_key: Named(Enter), text: Some("\r"), location: Standard, state: Released, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: Some("\r"), key_without_modifiers: Named(Enter) } }, is_synthetic: false }
+[20.999863601s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.999906483s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[20.999938191s] [INFO ] [alacritty_winit_event] About to wait
+[21.008093837s] [INFO ] [alacritty_winit_event] About to wait
+[21.008249863s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[21.008749647s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[21.008847355s] [INFO ] [alacritty_winit_event] RedrawRequested
+[21.012015425s] [INFO ] [alacritty_winit_event] About to wait
+[21.012173826s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[21.012228441s] [INFO ] [alacritty_winit_event] About to wait
+[21.014801255s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[21.015007566s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[21.015046328s] [INFO ] [alacritty_winit_event] About to wait
+[21.024417841s] [INFO ] [alacritty_winit_event] About to wait
+[21.024498926s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[21.024534196s] [INFO ] [alacritty_winit_event] RedrawRequested
+[21.029068991s] [INFO ] [alacritty_winit_event] About to wait
+[21.041080365s] [INFO ] [alacritty_winit_event] About to wait
+[21.041165361s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[21.041198536s] [INFO ] [alacritty_winit_event] About to wait
+[22.178383579s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowDown), logical_key: Named(ArrowDown), text: None, location: Standard, state: Pressed, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowDown) } }, is_synthetic: false }
+[22.178493509s] [INFO ] [alacritty_winit_event] About to wait
+[22.183525364s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.183675453s] [INFO ] [alacritty_winit_event] RedrawRequested
+[22.187544381s] [INFO ] [alacritty_winit_event] About to wait
+[22.187901130s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.188000584s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.188109257s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[22.188137892s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.188165759s] [INFO ] [alacritty_winit_event] RedrawRequested
+[22.193182877s] [INFO ] [alacritty_winit_event] About to wait
+[22.193332337s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[22.193390795s] [INFO ] [alacritty_winit_event] About to wait
+[22.280956469s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowDown), logical_key: Named(ArrowDown), text: None, location: Standard, state: Released, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowDown) } }, is_synthetic: false }
+[22.281048450s] [INFO ] [alacritty_winit_event] About to wait
+[22.391292357s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowDown), logical_key: Named(ArrowDown), text: None, location: Standard, state: Pressed, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowDown) } }, is_synthetic: false }
+[22.391376586s] [INFO ] [alacritty_winit_event] About to wait
+[22.396848301s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.396958231s] [INFO ] [alacritty_winit_event] RedrawRequested
+[22.400374867s] [INFO ] [alacritty_winit_event] About to wait
+[22.400540391s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[22.400591165s] [INFO ] [alacritty_winit_event] About to wait
+[22.405805935s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.405907694s] [INFO ] [alacritty_winit_event] RedrawRequested
+[22.412674406s] [INFO ] [alacritty_winit_event] About to wait
+[22.412815346s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.412853758s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[22.412884628s] [INFO ] [alacritty_winit_event] RedrawRequested
+[22.417629785s] [INFO ] [alacritty_winit_event] About to wait
+[22.423945951s] [INFO ] [alacritty_winit_event] About to wait
+[22.424031297s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[22.424065799s] [INFO ] [alacritty_winit_event] About to wait
+[22.460044047s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowDown), logical_key: Named(ArrowDown), text: None, location: Standard, state: Released, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowDown) } }, is_synthetic: false }
+[22.460141685s] [INFO ] [alacritty_winit_event] About to wait
+[22.544124572s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowDown), logical_key: Named(ArrowDown), text: None, location: Standard, state: Pressed, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowDown) } }, is_synthetic: false }
+[22.544211454s] [INFO ] [alacritty_winit_event] About to wait
+[22.549423430s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.549556268s] [INFO ] [alacritty_winit_event] RedrawRequested
+[22.554447253s] [INFO ] [alacritty_winit_event] About to wait
+[22.554595596s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.554633939s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.554684085s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.554708389s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[22.554738282s] [INFO ] [alacritty_winit_event] RedrawRequested
+[22.558610701s] [INFO ] [alacritty_winit_event] About to wait
+[22.558776784s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[22.558815057s] [INFO ] [alacritty_winit_event] About to wait
+[22.618036205s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowDown), logical_key: Named(ArrowDown), text: None, location: Standard, state: Released, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowDown) } }, is_synthetic: false }
+[22.618163316s] [INFO ] [alacritty_winit_event] About to wait
+[22.709296553s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowDown), logical_key: Named(ArrowDown), text: None, location: Standard, state: Pressed, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowDown) } }, is_synthetic: false }
+[22.709396985s] [INFO ] [alacritty_winit_event] About to wait
+[22.715736269s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.715872459s] [INFO ] [alacritty_winit_event] RedrawRequested
+[22.719495197s] [INFO ] [alacritty_winit_event] About to wait
+[22.719705419s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.719769184s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[22.719804943s] [INFO ] [alacritty_winit_event] RedrawRequested
+[22.723814391s] [INFO ] [alacritty_winit_event] About to wait
+[22.723957426s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.723993674s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[22.724025242s] [INFO ] [alacritty_winit_event] RedrawRequested
+[22.734944438s] [INFO ] [alacritty_winit_event] About to wait
+[22.740480267s] [INFO ] [alacritty_winit_event] About to wait
+[22.740561702s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[22.740594248s] [INFO ] [alacritty_winit_event] About to wait
+[22.780884218s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowDown), logical_key: Named(ArrowDown), text: None, location: Standard, state: Released, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowDown) } }, is_synthetic: false }
+[22.780975361s] [INFO ] [alacritty_winit_event] About to wait
+[22.888553916s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowDown), logical_key: Named(ArrowDown), text: None, location: Standard, state: Pressed, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowDown) } }, is_synthetic: false }
+[22.888669223s] [INFO ] [alacritty_winit_event] About to wait
+[22.895020799s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.895157409s] [INFO ] [alacritty_winit_event] RedrawRequested
+[22.898947137s] [INFO ] [alacritty_winit_event] About to wait
+[22.899121740s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.899178521s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[22.899213860s] [INFO ] [alacritty_winit_event] RedrawRequested
+[22.903282255s] [INFO ] [alacritty_winit_event] About to wait
+[22.903425220s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[22.903464611s] [INFO ] [alacritty_winit_event] About to wait
+[22.907095659s] [INFO ] [alacritty_winit_event] About to wait
+[22.907177792s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[22.907215646s] [INFO ] [alacritty_winit_event] RedrawRequested
+[22.914486543s] [INFO ] [alacritty_winit_event] About to wait
+[22.923755249s] [INFO ] [alacritty_winit_event] About to wait
+[22.923858894s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[22.923919586s] [INFO ] [alacritty_winit_event] About to wait
+[22.960460126s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowDown), logical_key: Named(ArrowDown), text: None, location: Standard, state: Released, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowDown) } }, is_synthetic: false }
+[22.960573130s] [INFO ] [alacritty_winit_event] About to wait
+[23.147089725s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowDown), logical_key: Named(ArrowDown), text: None, location: Standard, state: Pressed, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowDown) } }, is_synthetic: false }
+[23.147189878s] [INFO ] [alacritty_winit_event] About to wait
+[23.153841352s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.153928723s] [INFO ] [alacritty_winit_event] RedrawRequested
+[23.157480502s] [INFO ] [alacritty_winit_event] About to wait
+[23.157784172s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[23.157903740s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.158019188s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.158073594s] [INFO ] [alacritty_winit_event] RedrawRequested
+[23.162210293s] [INFO ] [alacritty_winit_event] About to wait
+[23.167305355s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.167417799s] [INFO ] [alacritty_winit_event] About to wait
+[23.167623132s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.167718047s] [INFO ] [alacritty_winit_event] About to wait
+[23.173751216s] [INFO ] [alacritty_winit_event] About to wait
+[23.173834048s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[23.173869108s] [INFO ] [alacritty_winit_event] RedrawRequested
+[23.178224550s] [INFO ] [alacritty_winit_event] About to wait
+[23.190344877s] [INFO ] [alacritty_winit_event] About to wait
+[23.190428546s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[23.190460813s] [INFO ] [alacritty_winit_event] About to wait
+[23.253945213s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowDown), logical_key: Named(ArrowDown), text: None, location: Standard, state: Released, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowDown) } }, is_synthetic: false }
+[23.254042432s] [INFO ] [alacritty_winit_event] About to wait
+[23.452033741s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowRight), logical_key: Named(ArrowRight), text: None, location: Standard, state: Pressed, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowRight) } }, is_synthetic: false }
+[23.452123976s] [INFO ] [alacritty_winit_event] About to wait
+[23.453408846s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Title(Yazi: ~/.config)) }
+[23.453505087s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.453548947s] [INFO ] [alacritty_winit_event] RedrawRequested
+[23.461401552s] [INFO ] [alacritty_winit_event] About to wait
+[23.461585235s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[23.461688600s] [INFO ] [alacritty_winit_event] About to wait
+[23.466076378s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.466281712s] [INFO ] [alacritty_winit_event] RedrawRequested
+[23.475021510s] [INFO ] [alacritty_winit_event] About to wait
+[23.475188221s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.475234806s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[23.475272241s] [INFO ] [alacritty_winit_event] RedrawRequested
+[23.486135913s] [INFO ] [alacritty_winit_event] About to wait
+[23.486302065s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.486350605s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.486379798s] [INFO ] [alacritty_winit_event] About to wait
+[23.489669393s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.489779462s] [INFO ] [alacritty_winit_event] About to wait
+[23.490130555s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.490223723s] [INFO ] [alacritty_winit_event] About to wait
+[23.490293355s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[23.490335818s] [INFO ] [alacritty_winit_event] RedrawRequested
+[23.499087420s] [INFO ] [alacritty_winit_event] About to wait
+[23.507168755s] [INFO ] [alacritty_winit_event] About to wait
+[23.507526761s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[23.507626075s] [INFO ] [alacritty_winit_event] About to wait
+[23.530472905s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.530585280s] [INFO ] [alacritty_winit_event] RedrawRequested
+[23.536540088s] [INFO ] [alacritty_winit_event] About to wait
+[23.536715808s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.536760367s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[23.536792564s] [INFO ] [alacritty_winit_event] RedrawRequested
+[23.545081188s] [INFO ] [alacritty_winit_event] About to wait
+[23.545224223s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[23.545259562s] [INFO ] [alacritty_winit_event] About to wait
+[23.588960231s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowRight), logical_key: Named(ArrowRight), text: None, location: Standard, state: Released, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowRight) } }, is_synthetic: false }
+[23.589059685s] [INFO ] [alacritty_winit_event] About to wait
+[23.994591981s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.994751429s] [INFO ] [alacritty_winit_event] RedrawRequested
+[23.999087106s] [INFO ] [alacritty_winit_event] About to wait
+[23.999229721s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[23.999267855s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[23.999301099s] [INFO ] [alacritty_winit_event] RedrawRequested
+[24.003885551s] [INFO ] [alacritty_winit_event] About to wait
+[24.006716288s] [INFO ] [alacritty_winit_event] About to wait
+[24.006795278s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[24.006828313s] [INFO ] [alacritty_winit_event] About to wait
+[24.766195479s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowDown), logical_key: Named(ArrowDown), text: None, location: Standard, state: Pressed, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowDown) } }, is_synthetic: false }
+[24.766325174s] [INFO ] [alacritty_winit_event] About to wait
+[24.774710458s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[24.774812357s] [INFO ] [alacritty_winit_event] RedrawRequested
+[24.779267532s] [INFO ] [alacritty_winit_event] About to wait
+[24.779410846s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Terminal(Wakeup) }
+[24.779447932s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[24.779480548s] [INFO ] [alacritty_winit_event] RedrawRequested
+[24.783974276s] [INFO ] [alacritty_winit_event] About to wait
+[24.789784931s] [INFO ] [alacritty_winit_event] About to wait
+[24.789869090s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[24.789902544s] [INFO ] [alacritty_winit_event] About to wait
+[24.837734883s] [INFO ] [alacritty_winit_event] KeyboardInput { device_id: DeviceId(X(DeviceId(3))), event: KeyEvent { physical_key: Code(ArrowDown), logical_key: Named(ArrowDown), text: None, location: Standard, state: Released, repeat: false, platform_specific: KeyEventExtra { text_with_all_modifiers: None, key_without_modifiers: Named(ArrowDown) } }, is_synthetic: false }
+[24.837839855s] [INFO ] [alacritty_winit_event] About to wait
+[36.114600189s] [INFO ] [alacritty_winit_event] CursorEntered { device_id: DeviceId(X(DeviceId(2))) }
+[36.114739871s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 32.0, y: 449.0 } }
+[36.114814043s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 32.74169921875, y: 449.3255310058594 } }
+[36.114862443s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 679.7417198158801 }
+[36.114889472s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 477.3255341104232 }
+[36.114947929s] [INFO ] [alacritty_winit_event] About to wait
+[36.128014115s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 54.67694091796875, y: 450.2344970703125 } }
+[36.128096039s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 701.676916220691 }
+[36.128125023s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 478.23449960933067 }
+[36.128164414s] [INFO ] [alacritty_winit_event] About to wait
+[36.577783321s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 61.3897705078125, y: 446.666015625 } }
+[36.577866782s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 708.3897828496993 }
+[36.577897302s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 474.66602659388445 }
+[36.577936902s] [INFO ] [alacritty_winit_event] About to wait
+[36.592773566s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 70.690185546875, y: 443.545654296875 } }
+[36.592846131s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 717.6901938086376 }
+[36.592874766s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 471.5456469792407 }
+[36.592911642s] [INFO ] [alacritty_winit_event] About to wait
+[36.606681200s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 81.97265625, y: 441.5842590332031 } }
+[36.606749505s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 728.9726595620159 }
+[36.606776324s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 469.584265507292 }
+[36.606840718s] [INFO ] [alacritty_winit_event] About to wait
+[36.621290600s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 106.43853759765625, y: 438.6867980957031 } }
+[36.621365120s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 753.4385119448416 }
+[36.621392987s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 466.6867863149382 }
+[36.621431260s] [INFO ] [alacritty_winit_event] About to wait
+[36.635449034s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 118.05206298828125, y: 437.96240234375 } }
+[36.635518037s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 765.0520494682714 }
+[36.635544787s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 465.96241651684977 }
+[36.635581174s] [INFO ] [alacritty_winit_event] About to wait
+[36.650082529s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 130.40179443359375, y: 437.6949462890625 } }
+[36.650154117s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 777.4017754956149 }
+[36.650182263s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 465.69495540717617 }
+[36.650219907s] [INFO ] [alacritty_winit_event] About to wait
+[36.663975986s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 142.29412841796875, y: 437.6058044433594 } }
+[36.664046665s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 789.2941042629536 }
+[36.664073973s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 465.605801703874 }
+[36.664111199s] [INFO ] [alacritty_winit_event] About to wait
+[36.678822776s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 154.18646240234375, y: 437.6058044433594 } }
+[36.678891710s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 801.1864330300596 }
+[36.678931449s] [INFO ] [alacritty_winit_event] About to wait
+[36.692584093s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 176.061279296875, y: 437.6058044433594 } }
+[36.692672652s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 823.0612566096243 }
+[36.692716931s] [INFO ] [alacritty_winit_event] About to wait
+[36.707483474s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 185.76629638671875, y: 437.4256286621094 } }
+[36.707549753s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 832.7662839726545 }
+[36.707578039s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 465.42564381076954 }
+[36.707615823s] [INFO ] [alacritty_winit_event] About to wait
+[36.721767343s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 194.91424560546875, y: 437.4256286621094 } }
+[36.721837743s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 841.9142291781027 }
+[36.721877483s] [INFO ] [alacritty_winit_event] About to wait
+[36.736125594s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 202.84246826171875, y: 437.4256286621094 } }
+[36.736192083s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 849.8424483560957 }
+[36.736233848s] [INFO ] [alacritty_winit_event] About to wait
+[36.751806289s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 209.85589599609375, y: 437.693115234375 } }
+[36.751933260s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 856.8558730136137 }
+[36.751970486s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 465.693104920676 }
+[36.752018048s] [INFO ] [alacritty_winit_event] About to wait
+[36.764951746s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 220.98590087890625, y: 438.4954833984375 } }
+[36.765039187s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 867.9858730137348 }
+[36.765070196s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 466.49548825016245 }
+[36.765109307s] [INFO ] [alacritty_winit_event] About to wait
+[36.779042783s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 224.64508056640625, y: 439.0303955078125 } }
+[36.779113951s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 871.6450510958675 }
+[36.779143285s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 467.0304104697425 }
+[36.779181418s] [INFO ] [alacritty_winit_event] About to wait
+[36.793745631s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 226.77960205078125, y: 439.2978820800781 } }
+[36.793815123s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 873.7795716437977 }
+[36.793843129s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 467.2978715796489 }
+[36.793881053s] [INFO ] [alacritty_winit_event] About to wait
+[36.807506109s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 227.6943359375, y: 439.4761657714844 } }
+[36.807567151s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 874.6943661642727 }
+[36.807595855s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 467.4761789862532 }
+[36.807633290s] [INFO ] [alacritty_winit_event] About to wait
+[36.820696125s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 228.09197998046875, y: 439.5536804199219 } }
+[36.820762055s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 875.0920049205888 }
+[36.820790690s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 467.5536848453339 }
+[36.820828544s] [INFO ] [alacritty_winit_event] About to wait
+[36.848063152s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 228.37664794921875, y: 439.72015380859375 } }
+[36.848127756s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 875.3766728837509 }
+[36.848155971s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 467.72014323063195 }
+[36.848193476s] [INFO ] [alacritty_winit_event] About to wait
+[37.004078383s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 228.30938720703125, y: 439.7594909667969 } }
+[37.004165755s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 875.3093858433422 }
+[37.004199418s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 467.7594890424516 }
+[37.004238599s] [INFO ] [alacritty_winit_event] About to wait
+[37.018320418s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 228.24029541015625, y: 439.88067626953125 } }
+[37.018406881s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 875.2402959959581 }
+[37.018451580s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 467.8806890291162 }
+[37.018489783s] [INFO ] [alacritty_winit_event] About to wait
+[37.033061957s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 228.15521240234375, y: 440.0299377441406 } }
+[37.033126909s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 875.155209626304 }
+[37.033154427s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 468.02995071117766 }
+[37.033191862s] [INFO ] [alacritty_winit_event] About to wait
+[37.046972036s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 228.06976318359375, y: 440.17987060546875 } }
+[37.047029585s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 875.069756067358 }
+[37.047056893s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 468.1798565306235 }
+[37.047092792s] [INFO ] [alacritty_winit_event] About to wait
+[37.061544839s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 227.88067626953125, y: 440.4009704589844 } }
+[37.061600572s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 874.8806797107682 }
+[37.061628299s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 468.4009797272738 }
+[37.061728731s] [INFO ] [alacritty_winit_event] About to wait
+[37.090466743s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 227.7952880859375, y: 440.5507507324219 } }
+[37.090526457s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 874.7953047056217 }
+[37.090553067s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 468.55074774473906 }
+[37.090589384s] [INFO ] [alacritty_winit_event] About to wait
+[37.133027043s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 227.73150634765625, y: 440.6253967285156 } }
+[37.133091088s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 874.7314827663358 }
+[37.133118186s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 468.62538696220145 }
+[37.133154154s] [INFO ] [alacritty_winit_event] About to wait
+[37.147742183s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 227.663330078125, y: 440.7050476074219 } }
+[37.147803084s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 874.6633595104795 }
+[37.147830043s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 468.7050565322861 }
+[37.147866011s] [INFO ] [alacritty_winit_event] About to wait
+[37.174824328s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 227.59442138671875, y: 440.745361328125 } }
+[37.174884042s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 874.5944224828854 }
+[37.174912188s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 468.7453671672847 }
+[37.174949134s] [INFO ] [alacritty_winit_event] About to wait
+[37.188711080s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 227.435302734375, y: 440.8849182128906 } }
+[37.188794400s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 874.4353193168063 }
+[37.188840286s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 468.8849195204675 }
+[37.188878559s] [INFO ] [alacritty_winit_event] About to wait
+[37.230841647s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 227.435302734375, y: 440.9293518066406 } }
+[37.230900663s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 468.9293610865716 }
+[37.230942847s] [INFO ] [alacritty_winit_event] About to wait
+[37.275140157s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 227.37957763671875, y: 440.9619445800781 } }
+[37.275204202s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 874.379580413457 }
+[37.275231719s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 468.9619541738648 }
+[37.275268106s] [INFO ] [alacritty_winit_event] About to wait
+[37.358253310s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 227.26104736328125, y: 441.13525390625 } }
+[37.358324129s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 874.2610376137309 }
+[37.358351856s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 469.1352476736065 }
+[37.358389570s] [INFO ] [alacritty_winit_event] About to wait
+[37.372298392s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 227.10260009765625, y: 441.2742004394531 } }
+[37.372353706s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 874.1026085615158 }
+[37.372381573s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 469.2742087491788 }
+[37.372417471s] [INFO ] [alacritty_winit_event] About to wait
+[37.485760865s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 227.02752685546875, y: 441.2742004394531 } }
+[37.485829310s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 874.0275477592368 }
+[37.485868700s] [INFO ] [alacritty_winit_event] About to wait
+[37.513996788s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 226.9705810546875, y: 441.3074951171875 } }
+[37.514064045s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 873.970598083688 }
+[37.514091842s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 469.30750983045436 }
+[37.514128998s] [INFO ] [alacritty_winit_event] About to wait
+[37.525786556s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 226.9027099609375, y: 441.3471984863281 } }
+[37.525847318s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 873.9027112312615 }
+[37.525875464s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 469.34720637998544 }
+[37.525912060s] [INFO ] [alacritty_winit_event] About to wait
+[37.568797751s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 226.8365478515625, y: 441.3858947753906 } }
+[37.568856278s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 873.8365632498171 }
+[37.568884634s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 469.3858861317858 }
+[37.568947491s] [INFO ] [alacritty_winit_event] About to wait
+[37.611771722s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 226.77911376953125, y: 441.4194641113281 } }
+[37.611834439s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 873.7791224832181 }
+[37.611861468s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 469.4194743765984 }
+[37.611898484s] [INFO ] [alacritty_winit_event] About to wait
+[37.669564895s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 226.72283935546875, y: 441.4194641113281 } }
+[37.669625168s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 873.7228654699866 }
+[37.669690400s] [INFO ] [alacritty_winit_event] About to wait
+[37.683602783s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 226.58050537109375, y: 441.4610900878906 } }
+[37.683676676s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 873.5804922385141 }
+[37.683704542s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 469.4611004483886 }
+[37.683740999s] [INFO ] [alacritty_winit_event] About to wait
+[37.697925415s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 226.50286865234375, y: 441.4610900878906 } }
+[37.697981078s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 873.5028563274536 }
+[37.698020678s] [INFO ] [alacritty_winit_event] About to wait
+[37.712398275s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 226.35009765625, y: 441.4610900878906 } }
+[37.712455056s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 873.3500779864844 }
+[37.712493957s] [INFO ] [alacritty_winit_event] About to wait
+[37.726813446s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 225.9420166015625, y: 441.4610900878906 } }
+[37.726876513s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 872.9420029080939 }
+[37.726914576s] [INFO ] [alacritty_winit_event] About to wait
+[37.741015811s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 225.46282958984375, y: 441.39105224609375 } }
+[37.741075525s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 872.4628361773212 }
+[37.741103322s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 469.39105276972987 }
+[37.741139290s] [INFO ] [alacritty_winit_event] About to wait
+[37.755043712s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 224.1387939453125, y: 441.1329650878906 } }
+[37.755106499s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 871.1388051968534 }
+[37.755133458s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 469.13297893456183 }
+[37.755171032s] [INFO ] [alacritty_winit_event] About to wait
+[37.769801105s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 223.55035400390625, y: 440.9609375 } }
+[37.769869550s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 870.5503806723282 }
+[37.769897975s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 468.960939560784 }
+[37.769936318s] [INFO ] [alacritty_winit_event] About to wait
+[37.783870213s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 222.71728515625, y: 440.7173767089844 } }
+[37.783963660s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 869.7172962627374 }
+[37.783992714s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 468.7173682714347 }
+[37.784032035s] [INFO ] [alacritty_winit_event] About to wait
+[37.798509714s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 221.6500244140625, y: 440.2716064453125 } }
+[37.798573339s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 868.6500359887723 }
+[37.798600159s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 468.2715997551568 }
+[37.798658546s] [INFO ] [alacritty_winit_event] About to wait
+[37.812563736s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 219.972900390625, y: 439.4692077636719 } }
+[37.812621495s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 866.9729127010796 }
+[37.812671850s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 467.4692164256703 }
+[37.812733450s] [INFO ] [alacritty_winit_event] About to wait
+[37.827055104s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 219.37860107421875, y: 439.1216735839844 } }
+[37.827112374s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 866.378579055192 }
+[37.827140101s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 467.1216823444702 }
+[37.827176907s] [INFO ] [alacritty_winit_event] About to wait
+[37.841260122s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 218.4959716796875, y: 438.6055603027344 } }
+[37.841325913s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 865.4959483011626 }
+[37.841352872s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 466.6055677512195 }
+[37.841392122s] [INFO ] [alacritty_winit_event] About to wait
+[37.856003827s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 217.4287109375, y: 438.1597900390625 } }
+[37.856064659s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 864.4286880271975 }
+[37.856092456s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 466.15979923470877 }
+[37.856130868s] [INFO ] [alacritty_winit_event] About to wait
+[37.870137817s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 216.0565185546875, y: 437.6248779296875 } }
+[37.870199138s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 863.0564962462522 }
+[37.870225817s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 465.62487701512873 }
+[37.870262833s] [INFO ] [alacritty_winit_event] About to wait
+[37.884535039s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 214.074462890625, y: 437.00079345703125 } }
+[37.884595102s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 861.0744414518122 }
+[37.884622271s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 465.00080109224655 }
+[37.884687153s] [INFO ] [alacritty_winit_event] About to wait
+[37.898618185s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 213.322021484375, y: 436.8248291015625 } }
+[37.898743200s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 860.3220360593405 }
+[37.898790483s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 464.82481474615633 }
+[37.898831200s] [INFO ] [alacritty_winit_event] About to wait
+[37.913460924s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 212.63134765625, y: 436.66326904296875 } }
+[37.913521826s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 859.6313442026731 }
+[37.913550111s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 464.66326309158467 }
+[37.913586987s] [INFO ] [alacritty_winit_event] About to wait
+[37.927895720s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 212.109619140625, y: 436.4344482421875 } }
+[37.927967587s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 859.1096133550163 }
+[37.927995733s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 464.43445316469297 }
+[37.928037638s] [INFO ] [alacritty_winit_event] About to wait
+[37.942089285s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 211.2633056640625, y: 436.18701171875 } }
+[37.942167088s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 858.263306822395 }
+[37.942195025s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 464.1870160852559 }
+[37.942233926s] [INFO ] [alacritty_winit_event] About to wait
+[37.956431612s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 210.196044921875, y: 435.652099609375 } }
+[37.956490488s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 857.1960465484299 }
+[37.956517656s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 463.65209386567585 }
+[37.956553764s] [INFO ] [alacritty_winit_event] About to wait
+[37.970755989s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 209.60400390625, y: 435.3924560546875 } }
+[37.970820872s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 856.6039914940484 }
+[37.970848459s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 463.3924426024314 }
+[37.970884846s] [INFO ] [alacritty_winit_event] About to wait
+[37.985571421s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 208.933837890625, y: 435.0789489746094 } }
+[37.985632672s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 855.9338381648995 }
+[37.985689243s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 463.078947146656 }
+[37.985727516s] [INFO ] [alacritty_winit_event] About to wait
+[37.999618668s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 208.82720947265625, y: 435.0165710449219 } }
+[37.999696960s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 855.8271845236886 }
+[37.999725246s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 463.01658188179135 }
+[37.999763589s] [INFO ] [alacritty_winit_event] About to wait
+[38.013880398s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 208.29351806640625, y: 434.829345703125 } }
+[38.013970702s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 855.2934962264262 }
+[38.014016309s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 462.82933869957924 }
+[38.014056258s] [INFO ] [alacritty_winit_event] About to wait
+[38.028336147s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 207.9066162109375, y: 434.5276794433594 } }
+[38.028400470s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 854.906586234225 }
+[38.028427918s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 462.52768006152473 }
+[38.028465702s] [INFO ] [alacritty_winit_event] About to wait
+[38.056823079s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 207.7174072265625, y: 434.36175537109375 } }
+[38.056888101s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 854.7174256874714 }
+[38.056916876s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 462.36176381935365 }
+[38.056959060s] [INFO ] [alacritty_winit_event] About to wait
+[38.083993015s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 207.648193359375, y: 434.28082275390625 } }
+[38.084048958s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 854.6482169053052 }
+[38.084076056s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 462.2808247350622 }
+[38.084111954s] [INFO ] [alacritty_winit_event] About to wait
+[38.194487443s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 207.648193359375, y: 434.2466735839844 } }
+[38.194575722s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 462.2466626688838 }
+[38.194617976s] [INFO ] [alacritty_winit_event] About to wait
+[38.207079407s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 207.70941162109375, y: 434.2466735839844 } }
+[38.207136467s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 854.7094013588503 }
+[38.207174950s] [INFO ] [alacritty_winit_event] About to wait
+[38.223577385s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 208.07110595703125, y: 434.2466735839844 } }
+[38.223661544s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 855.0710803454276 }
+[38.223703518s] [INFO ] [alacritty_winit_event] About to wait
+[38.235972187s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 208.40185546875, y: 434.2466735839844 } }
+[38.236027641s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 855.4018818677869 }
+[38.236066892s] [INFO ] [alacritty_winit_event] About to wait
+[38.251251784s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 208.59478759765625, y: 434.2466735839844 } }
+[38.251315340s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 855.5947830993682 }
+[38.251354940s] [INFO ] [alacritty_winit_event] About to wait
+[38.291170338s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 208.66473388671875, y: 434.2466735839844 } }
+[38.291233195s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 855.6647528526373 }
+[38.291291513s] [INFO ] [alacritty_winit_event] About to wait
+[38.305705217s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 208.72845458984375, y: 434.20941162109375 } }
+[38.305764093s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 855.7284357489552 }
+[38.305791052s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 462.20942436507903 }
+[38.305827160s] [INFO ] [alacritty_winit_event] About to wait
+[38.994992521s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 206.67486572265625, y: 433.7833251953125 } }
+[38.995074096s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 853.674837019993 }
+[38.995102940s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 461.7833222777117 }
+[38.995141353s] [INFO ] [alacritty_winit_event] About to wait
+[39.008955679s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 202.6900634765625, y: 433.381591796875 } }
+[39.009019444s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 849.6900797330309 }
+[39.009047521s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 461.38158608134836 }
+[39.009085235s] [INFO ] [alacritty_winit_event] About to wait
+[39.023793600s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 197.2012939453125, y: 432.75750732421875 } }
+[39.023863511s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 844.2013126097154 }
+[39.023892355s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 460.7575101584662 }
+[39.023930838s] [INFO ] [alacritty_winit_event] About to wait
+[39.037703050s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 191.255126953125, y: 432.1334228515625 } }
+[39.037774358s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 838.2551482261624 }
+[39.037801596s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 460.133434235584 }
+[39.037838402s] [INFO ] [alacritty_winit_event] About to wait
+[39.052423288s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 183.6318359375, y: 431.5093688964844 } }
+[39.052487682s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 830.6318605549168 }
+[39.052515688s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 459.5093583127018 }
+[39.052552983s] [INFO ] [alacritty_winit_event] About to wait
+[39.066349919s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 161.42596435546875, y: 428.7140197753906 } }
+[39.066418853s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 808.425973403966 }
+[39.066447208s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 456.71401976421475 }
+[39.066484224s] [INFO ] [alacritty_winit_event] About to wait
+[39.081221294s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 146.46783447265625, y: 425.8285217285156 } }
+[39.081292951s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 793.4678410869092 }
+[39.081321027s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 453.82850900432095 }
+[39.081359509s] [INFO ] [alacritty_winit_event] About to wait
+[39.095066560s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 129.84906005859375, y: 421.7274475097656 } }
+[39.095171112s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 776.8490739637055 }
+[39.095201563s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 449.72743865381926 }
+[39.095240395s] [INFO ] [alacritty_winit_event] About to wait
+[39.109910975s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 110.79083251953125, y: 417.0022888183594 } }
+[39.109982074s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 757.7908547855914 }
+[39.110010569s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 445.00229238020256 }
+[39.110047655s] [INFO ] [alacritty_winit_event] About to wait
+[39.124032464s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 91.38995361328125, y: 412.1786193847656 } }
+[39.124100908s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 738.389958089916 }
+[39.124127797s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 440.1786075353157 }
+[39.124165162s] [INFO ] [alacritty_winit_event] About to wait
+[39.138698854s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 39.67120361328125, y: 400.9256591796875 } }
+[39.138765762s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 686.6711959121749 }
+[39.138792721s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 428.9256486380473 }
+[39.138829876s] [INFO ] [alacritty_winit_event] About to wait
+[39.152377898s] [INFO ] [alacritty_winit_event] CursorMoved { device_id: DeviceId(X(DeviceId(2))), position: PhysicalPosition { x: 14.59417724609375, y: 396.3505859375 } }
+[39.152446482s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 0, value: 661.5941769799683 }
+[39.152473720s] [INFO ] [alacritty_winit_event] AxisMotion { device_id: DeviceId(X(DeviceId(2))), axis: 1, value: 424.3505803027656 }
+[39.152511644s] [INFO ] [alacritty_winit_event] About to wait
+[39.167494345s] [INFO ] [alacritty_winit_event] CursorLeft { device_id: DeviceId(X(DeviceId(2))) }
+[39.167580530s] [INFO ] [alacritty_winit_event] About to wait
+[39.182203828s] [INFO ] [alacritty_winit_event] ModifiersChanged(Modifiers { state: ModifiersState(0x0), pressed_mods: ModifiersKeys(0x0) })
+[39.183005047s] [INFO ] [alacritty_winit_event] Focused(false)
+[39.183120844s] [INFO ] [alacritty_winit_event] About to wait
+[39.183223720s] [INFO ] [alacritty_winit_event] RedrawRequested
+[39.189238381s] [INFO ] [alacritty_winit_event] About to wait
+[39.189494769s] [INFO ] [alacritty_winit_event] Event { window_id: Some(WindowId(29360131)), payload: Frame }
+[39.189542540s] [INFO ] [alacritty_winit_event] About to wait
+[44.710596579s] [INFO ] [alacritty_winit_event] About to wait

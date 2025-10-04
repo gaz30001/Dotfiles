@@ -1,0 +1,38 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/NEWPROJEKT">
+          <value>
+            <RecentProjectMetaInfo frameTitle="NEWPROJEKT" projectWorkspaceId="2rqDS1pt7kZglCkarYRYwqlSxyV">
+              <option name="activationTimestamp" value="1737278367013" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-243.22562.220" />
+              <option name="buildTimestamp" value="1735893720000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="-2" y="0" width="1284" height="802" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1737278319318" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/PythonProject">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2rqEnGR9yn62mZo8Z27wV4asUBi">
+              <option name="activationTimestamp" value="1737279363892" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-243.22562.220" />
+              <option name="buildTimestamp" value="1735893720000" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1737278371579" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/PythonProject" />
+    <option name="lastProjectLocation" value="$USER_HOME$" />
+  </component>
+</application>

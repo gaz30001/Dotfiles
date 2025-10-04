@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+
+#dunstify -r 300 -u low Перевод... &
+dunstify -u low ПЕРЕВОД... &
+#dunstify -r 300 -u low -t 0 Перевод: "`xsel | trans -b :ru`"
+dunstify -u low Перевод: "`xsel | trans -b :ru`"

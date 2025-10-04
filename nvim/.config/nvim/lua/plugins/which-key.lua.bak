@@ -1,0 +1,31 @@
+return {
+	"folke/which-key.nvim",
+	event = "VeryLazy",
+	init = function()
+		vim.o.timeout = true
+		vim.o.timeoutlen = 300
+		vim.g.mapleader = ","
+	end,
+	opts = {
+		win = {
+			border = "single",
+		},
+	},
+	config = function()
+		local wk = require("which-key")
+
+		wk.register({
+			e = { "<cmd>NvimTreeToggle<CR>", "Файловый менеджер" },
+			f = {
+				function()
+					vim.lsp.buf.format({ async = true })
+				end,
+				"Форматировать",
+			},
+			h = { "<cmd>nohlsearch<CR>", "Убрать подсветку поиска" },
+			q = { "<cmd>q<CR>", "Выйти" },
+			s = { "<cmd>w<CR>", "Сохранить файл" },
+			x = { "<cmd>bd<CR>", "Закрыть буфер" },
+		}, { prefix = "<leader>" })
+	end,
+}

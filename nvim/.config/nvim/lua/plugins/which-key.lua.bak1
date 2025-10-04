@@ -1,0 +1,32 @@
+return {
+	"folke/which-key.nvim",
+	event = "VeryLazy",
+	init = function()
+		vim.o.timeout = true
+		vim.o.timeoutlen = 300
+	end,
+	opts = {
+		win = {
+			border = "single",
+		},
+	},
+	keys = {
+		-- Основные команды
+		{ "<leader>e", "<cmd>NvimTreeToggle<CR>", desc = "Файловый менеджер" },
+		{
+			"<leader>f",
+			function()
+				vim.lsp.buf.format({ async = true })
+			end,
+			desc = "Форматировать",
+		},
+		{ "<leader>h", "<cmd>nohlsearch<CR>", desc = "Убрать подсветку поиска" },
+		{ "<leader>q", "<cmd>q<CR>", desc = "Выйти" },
+		{ "<leader>s", "<cmd>w<CR>", desc = "Сохранить файл" },
+		{ "<leader>x", "<cmd>bd<CR>", desc = "Закрыть буфер" },
+
+		-- Команды для NvimTree
+		{ ",a", "<cmd>NvimTreeCreate<CR>", desc = "Создать файл/папку" },
+		{ ",r", "<cmd>NvimTreeRename<CR>", desc = "Переименовать файл/папку" },
+	},
+}

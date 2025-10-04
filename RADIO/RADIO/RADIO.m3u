@@ -1,0 +1,31 @@
+#EXTM3U
+#EXTINF:-1,ENERGY
+#http://ic2.101.ru:8000/v1_1
+http://ic7.101.ru:8000/v1_1
+#EXTINF:-2,RADIORECORD
+http://air2.radiorecord.ru:805/rr_320
+#EXTINF:-3,EUROPA+
+http://ep256.hostingradio.ru:8052/europaplus256.mp3
+#EXTINF:-4,EUROPE+ TOP 40
+http://eptop128server.streamr.ru:8033/eptop128
+#EXTINF:-5,RETRO FM
+http://retroserver.streamr.ru:8043/retro128
+#EXTINF:-6,DOROZNOE
+http://dorognoe.hostingradio.ru:8000/radio
+#EXTINF:-7,RUSSKOE_RADIO
+http://icecast.russkoeradio.cdnvideo.ru/rr.mp3
+#EXTINF:-8,RADIO_ZVEZDA
+https://icecast-zvezda.mediacdn.ru/radio/zvezda/zvezda_128
+#EXTINF:-9,AUTORADIO
+http://193.232.148.42:8000/v3_1
+#EXTINF:-10,RADIORECORD ROCK
+http://air2.radiorecord.ru:805/rock_320
+#EXTINF:-11,NASHE_RADIO
+http://nashe128.streamr.ru
+#EXTINF:-12,SHANSON
+http://chanson.hostingradio.ru:8041/chanson256.mp3
+#EXTINF:-13,COMEDY_RADIO
+https://pub0201.101.ru/stream/air/aac/64/202
+#EXTINF:-14,YANDEX_RADIO
+https://s180vlx.storage.yandex.net/get-mp3/a052a1f3a6297771caa720104618df56/00062340dc385fac/rmusic/U2FsdGVkX18Z70ahggxkvNHfDuJyIydAiWroRGjqyZgrne0dAfpp5Pdb2wESSPPFjRA9m2pHz8iwIpsPEeUqlcKAun7AXTj44bcBglbPTEE/c7ab28ca6587a4173376258180f6c402d73692021110401548f367baf26b256c?track-id=129975034&play=false
+https://s226vlx.storage.yandex.net/get-mp3/277b2e3417bad7849736086b1f536fc8/0006234118a5abca/rmusic/U2FsdGVkX1-Ox7BrCycu3ZTowZa8-BN7uWmGXuoFgpzWzIqzFCLV6E8z_Q9t99YL-_pklwUorbx_Ijtdgg6zDXDL5fZ2LzKx8XFFRKgTwIA/85fd3ff47bd6261a087affb4362a993751c5af76ceea10e0cc83e583f727c49f/50015?track-id=48591624&play=false

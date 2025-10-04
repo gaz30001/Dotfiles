@@ -1,0 +1,189 @@
+#!/usr/bin/python
+import os
+import json
+import tkinter as tk
+from tkinter import filedialog
+from PIL import Image, ImageTk
+
+CONFIG_PATH = os.path.expanduser("~/.viewer_config")
+
+class ImageViewer:
+    def __init__(self):
+        self.folder = filedialog.askdirectory(title="Выберите папку с изображениями")
+        if not self.folder:
+            return
+
+        self.files = sorted([
+            f for f in os.listdir(self.folder)
+            if f.lower().endswith(('.jpg', '.jpeg', '.png', '.bmp', '.gif', '.webp', '.tiff'))
+        ])
+        
+        print("Найдены изображения:", self.files)  # Отладочный вывод
+        
+        if not self.files:
+            print("В папке нет изображений.")
+            return
+
+        self.index = 0
+        self.scale = 1.0
+        self.rotation = 0
+        self.crop = False
+        self.fullscreen = False
+
+        self.load_config()  # Метод теперь существует
+
+        self.root = tk.Tk()
+        self.root.title("Просмотр изображений")
+        self.root.configure(bg="#171717")
+
+        self.label = tk.Label(self.root, bg="#171717")
+        self.label.pack(expand=True)
+
+        self.thumb_frame = tk.Frame(self.root, bg="#171717")
+        self.thumb_frame.pack(fill=tk.X)
+
+        self.thumbnails = []
+        self.load_thumbnails()
+
+        self.root.focus_set()
+
+        # Привязка клавиш
+        self.root.bind_all("<Left>", lambda e: self.show_prev())
+        self.root.bind_all("<Right>", lambda e: self.show_next())
+        self.root.bind_all("a", lambda e: self.show_prev())
+        self.root.bind_all("d", lambda e: self.show_next())
+        self.root.bind_all("+", lambda e: self.zoom_in())
+        self.root.bind_all("=", lambda e: self.zoom_in())
+        self.root.bind_all("-", lambda e: self.zoom_out())
+        self.root.bind_all("<Up>", lambda e: self.zoom_in())
+        self.root.bind_all("<Down>", lambda e: self.zoom_out())
+        self.root.bind_all("r", lambda e: self.rotate())
+        self.root.bind_all("c", lambda e: self.toggle_crop())
+        self.root.bind_all("<F11>", lambda e: self.toggle_fullscreen())
+        self.root.bind_all("q", lambda e: self.quit())
+        self.root.bind_all("<Escape>", lambda e: self.quit())
+
+        self.show_image()
+        self.root.mainloop()
+
+    # Добавленные методы конфигурации
+    def load_config(self):
+        if os.path.exists(CONFIG_PATH):
+            try:
+                with open(CONFIG_PATH, "r") as f:
+                    config = json.load(f)
+                    self.scale = config.get("scale", 1.0)
+            except Exception as e:
+                print("Ошибка загрузки конфига:", e)
+
+    def save_config(self):
+        try:
+            with open(CONFIG_PATH, "w") as f:
+                json.dump({"scale": self.scale}, f)
+        except Exception as e:
+            print("Ошибка сохранения конфига:", e)
+
+    # Метод загрузки миниатюр с улучшенной обработкой ошибок
+    def load_thumbnails(self):
+        for widget in self.thumb_frame.winfo_children():
+            widget.destroy()
+
+        self.thumbnails.clear()
+        for i, filename in enumerate(self.files):
+            path = os.path.join(self.folder, filename)
+            try:
+                img = Image.open(path)
+                img.thumbnail((80, 80))
+                thumb = ImageTk.PhotoImage(img)
+                btn = tk.Label(self.thumb_frame, image=thumb, bg="#171717", borderwidth=2, relief="solid")
+                btn.image = thumb
+                btn.pack(side=tk.LEFT, padx=2, pady=2)
+                btn.bind("<Button-1>", lambda e, idx=i: self.show_at_index(idx))
+                self.thumbnails.append(btn)
+            except Exception as e:
+                print(f"Ошибка загрузки миниатюры {filename}: {str(e)}")
+
+    # Остальные методы
+    def highlight_thumbnail(self):
+        for i, thumb in enumerate(self.thumbnails):
+            if i == self.index:
+                thumb.config(highlightbackground="white", highlightthickness=2, relief="ridge")
+            else:
+                thumb.config(highlightthickness=0, relief="flat")
+
+    def show_image(self):
+        try:
+            path = os.path.join(self.folder, self.files[self.index])
+            image = Image.open(path)
+            
+            if self.rotation != 0:
+                image = image.rotate(self.rotation, expand=True)
+            
+            if self.crop:
+                w, h = image.size
+                crop_size = min(w, h) * 0.6
+                left = (w - crop_size) / 2
+                top = (h - crop_size) / 2
+                right = (w + crop_size) / 2
+                bottom = (h + crop_size) / 2
+                image = image.crop((left, top, right, bottom))
+            
+            w, h = image.size
+            image = image.resize((int(w * self.scale), int(h * self.scale)), Image.LANCZOS)
+            
+            self.photo = ImageTk.PhotoImage(image)
+            self.label.config(image=self.photo)
+            self.root.title(f"{self.files[self.index]} ({self.index + 1}/{len(self.files)})")
+            self.highlight_thumbnail()
+            
+        except Exception as e:
+            print(f"Ошибка загрузки изображения: {str(e)}")
+
+    # Методы навигации
+    def show_next(self):
+        self.index = (self.index + 1) % len(self.files)
+        self.rotation = 0
+        self.crop = False
+        self.show_image()
+
+    def show_prev(self):
+        self.index = (self.index - 1) % len(self.files)
+        self.rotation = 0
+        self.crop = False
+        self.show_image()
+
+    def show_at_index(self, idx):
+        self.index = idx
+        self.rotation = 0
+        self.crop = False
+        self.show_image()
+
+    # Прочие методы
+    def zoom_in(self):
+        self.scale *= 1.25
+        self.show_image()
+        self.save_config()
+
+    def zoom_out(self):
+        self.scale /= 1.25
+        self.show_image()
+        self.save_config()
+
+    def rotate(self):
+        self.rotation = (self.rotation + 90) % 360
+        self.show_image()
+
+    def toggle_crop(self):
+        self.crop = not self.crop
+        self.show_image()
+
+    def toggle_fullscreen(self):
+        self.fullscreen = not self.fullscreen
+        self.root.attributes("-fullscreen", self.fullscreen)
+
+    def quit(self):
+        self.save_config()
+        self.root.destroy()
+
+if __name__ == "__main__":
+    ImageViewer()

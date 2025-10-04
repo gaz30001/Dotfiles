@@ -1,0 +1,575 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;   The README contains a lot of information
+;
+;==========================================================
+
+[colors]
+#background = ${xrdb:color0:#222}
+#background = #00000044
+background = #1c2021
+background-alt = #bf444444
+;foreground = ${xrdb:color7:#222}
+#foreground = #757575
+foreground = #eadbb4
+foreground-alt = #D8CCAF
+#primary = #656565
+primary = #D8CCAF
+secondary = #e60053
+#alert = #859900
+alert = #b8bb26
+forealert = #000000
+[bar/example]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 100%
+height = 20
+;offset-x = 1%
+;offset-y = 1%
+radius = 0.0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 1
+line-color = #f00
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 0
+padding-right = 1
+
+module-margin-left = 0
+module-margin-right = 1
+
+font-0 = fixed:pixelsize=12;2
+font-1 = unifont:fontformat=truetype:size=12:antialias=false;3
+font-2 = siji:pixelsize=10;1
+font-3 = FontAwesome:style=Regular:pixelsize=13;2
+font-4 = Weather Icons:pixelsize=12:antialias=false;4
+font-5 = Hack Nerd Font Mono:size=13;2
+modules-left = i3 updates-pacman 
+modules-center = xwindow
+;modules-right = ticker-crypto filesystem pulseaudio xkeyboard memory cpu wlan battery temperature popup-calendar nm-applet
+;modules-right = filesystem pulseaudio xkeyboard memory cpu wlan battery temperature popup-calendar nm-applet
+;modules-right = ticker-crypto network-traffics network-traffic filesystem pulseaudio xkeyboard memory cpu wlan temperature popup-calendar nm-applet
+;modules-right = network-traffic filesystem pulseaudio xkeyboard memory cpu wlan temperature popup-calendar nm-applet
+modules-right = network-traffics network-traffic filesystem pulseaudio xkeyboard memory cpu wlan temperature popup-calendar nm-applet
+;openweathermap-forecast player-moc powermenu ticker-crypto pacman-updates
+tray-position = right
+tray-padding = -3
+;tray-background = #0063ff
+
+;wm-restack = bspwm
+wm-restack = i3
+
+;override-redirect = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+[module/crypto]
+type = custom/script
+exec = python ~/.config/polybar/crypto.py
+interval = 60
+
+font-0 = "cryptocoins:style=Regular;0"
+
+
+[module/updates-pacman]
+type = custom/script
+exec = ~/.config/polybar/polybar-scripts/polybar-scripts/updates-pacman/updates-pacman.sh
+format-foreground = ${colors.foreground}
+format-background = ${color,background}
+format-prefix = "  "
+format-prefix-foreground = #b8bb26
+format-underline = #b8bb26
+interval = 600
+
+[module/pacman-updates]
+type = custom/script
+exec = checkupdates | wc -l
+interval = 1000
+label = Repo: 
+format-foreground = ${colors.foreground}
+format-background = ${color,background}
+format-prefix = "  "
+format-prefix-foreground = #ffbb00
+format-underline = #ffbb00
+
+[module/count-updates]
+type = custom/script
+exec = ~/.config/polybar/scripts/count-updates.sh
+interval = 10
+
+
+[module/network-traffic]
+type = custom/script
+exec = ~/.config/polybar/polybar-scripts/polybar-scripts/network-traffic/network-traffic.sh
+tail = true
+#format-background = #7f151d
+format-background = #fc4933
+format-foreground = #000000
+#format-underline = #859900
+label-margin-left =1
+label-margin-right =1
+
+[module/network-traffics]
+type = custom/script
+exec = ~/.config/polybar/polybar-scripts/polybar-scripts/network-traffic/network-traffics.sh
+tail = true
+#format-background = #859900
+format-background = #b8bb26
+format-foreground = #000
+label-margin-left =1
+label-margin-right =1
+
+
+[module/ticker-crypto]
+type = custom/script
+exec = ~/.config/polybar/polybar-scripts/polybar-scripts/ticker-crypto/ticker-crypto.sh
+interval = 0
+
+[module/popup-calendar]
+type = custom/script
+exec = ~/.config/polybar/polybar-scripts/polybar-scripts/popup-calendar/popup-calendar.sh
+label-background = ${colors.alert}
+label-foreground = ${colors.forealert}
+label-padding-right = 1
+format-prefix-padding-left = 1
+format-prefix = " "
+format-prefix-background = ${colors.alert}
+format-prefix-foreground = ${colors.forealert}
+interval = 5
+click-left = ~/.config/polybar/polybar-scripts/polybar-scripts/popup-calendar/popup-calendar.sh --popup &
+;[module/ticker-forex]
+;type = custom/script
+;exec = ~/.config/polybar/polybar-scripts/polybar-scripts/;ticker-forex/ticker-forex.sh
+;interval = 600
+;[module/vpn]
+;type = custom/script
+;exec = ~/.config/polybar/polybar-scripts/vpn-openvpn-isrunning/vpn-openvpn-isrunning.sh
+;interval = 6
+;click-left = sudo protonvpn c -f
+;click-right = sudo protonvpn disconnect
+;
+[module/openweathermap-forecast]
+type = custom/script
+exec = ~/.config/polybar/polybar-scripts/polybar-scripts/openweathermap-forecast/openweathermap-forecast.sh
+interval = 600
+label-font = 5
+
+
+[module/network-networkmanager]
+type = custom/script
+exec = ~/.polybar_scripts/network-networkmanager.sh
+tail = true
+
+[module/player-moc]
+type = custom/script
+exec = ~/.config/polybar/polybar-scripts/polybar-scripts/player-moc/player-moc.sh
+interval = 3
+click-left = mocp -f &
+click-right = mocp -r &
+click-middle = mocp -G &
+
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:30:...%
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-prefix = " "
+format-prefix-padding-left = 1
+format-prefix-foreground = ${colors.foreground-alt}
+
+format-prefix-padding = 2
+label-layout = %layout%
+
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.secondary}
+label-indicator-underline = ${colors.secondary}
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+
+mount-0 = /
+
+label-mounted =   %free%
+;label-mounted =  %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground-alt}
+
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = false
+
+; Only show workspaces on the same output as the bar
+;pin-workspaces = true
+
+label-mode-padding = 1
+label-mode-foreground = #000
+label-mode-background = ${colors.primary}
+
+; focused = Active workspace on focused monitor
+label-focused = %index%
+label-focused-background = ${colors.background-alt}
+#label-focused-foreground = #859900
+label-focused-foreground = #B8BB26
+label-focused-underline= ${colors.primary}
+label-focused-padding = 1
+
+; unfocused = Inactive workspace on any monitor
+label-unfocused = %index%
+label-unfocused-padding = 1
+
+; visible = Active workspace on unfocused monitor
+label-visible = %index%
+label-visible-background = ${self.label-focused-background}
+label-visible-underline = ${self.label-focused-underline}
+label-visible-padding = ${self.label-focused-padding}
+
+; urgent = Workspace with urgency hint set
+label-urgent = %index%
+label-urgent-background = ${colors.alert}
+label-urgent-foreground = #000
+label-urgent-padding = 1
+
+; Separator in between workspaces
+; label-separator = |
+
+
+[module/mpd]
+type = internal/mpd
+format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
+
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+
+label-song-maxlen = 25
+label-song-ellipsis = true
+
+[module/xbacklight]
+type = internal/xbacklight
+
+format = <label> <bar>
+label = BL
+
+bar-width = 10
+bar-indicator = |
+bar-indicator-foreground = #fff
+bar-indicator-font = 2
+bar-fill = ─
+bar-fill-font = 2
+bar-fill-foreground = #9f78e1
+bar-empty = ─
+bar-empty-font = 2
+bar-empty-foreground = ${colors.foreground-alt}
+
+[module/backlight-acpi]
+inherit = module/xbacklight
+type = internal/backlight
+card = intel_backlight
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = "  "
+format-prefix-padding-left = 1
+format-prefix-foreground = ${colors.foreground-alt}
+label = %percentage:2%%
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = "  "
+format-prefix-padding-left = 1
+format-prefix-foreground = ${colors.foreground-alt}
+label = %percentage_used%%
+
+[module/wlan]
+type = internal/network
+;interface = wlan0
+interface = wlp4s0
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+label-connected = %essid%
+label-connected-padding = 2
+
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+ramp-signal-0 = 
+ramp-signal-0-foreground= #fc4933
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-3-foreground= #fabd2f
+ramp-signal-4 = 
+ramp-signal-4-foreground= #B8BB26
+ramp-signal-foreground = ${colors.foreground-alt}
+ramp-signal-padding-left = 1
+
+
+[module/eth]
+type = internal/network
+interface = enp3s0
+interval = 3.0
+
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.foreground-alt}
+label-connected = %local_ip%
+
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+[module/date]
+type = internal/date
+interval = 5
+
+date =
+date-alt = " %Y-%m-%d"
+radius = 0.9
+label-padding-right = 1
+format-prefix-padding-left = 1
+time = %H:%M
+time-alt = %H:%M:%S
+
+format-prefix =  
+format-prefix-background = ${colors.alert}
+format-prefix-foreground = ${colors.forealert}
+;format-underline = #0a6cf5
+
+label = %date% %time%
+label-background = ${colors.alert}
+label-foreground = ${colors.forealert}
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume = <label-volume> <bar-volume>
+label-volume = "   %percentage%%"
+label-volume-padding-left = 1
+label-volume-foreground = ${root.foreground}
+
+label-muted =  muted
+label-muted-foreground = #404040
+
+bar-volume-width = 3
+bar-volume-foreground-0 = #859900
+bar-volume-foreground-1 = #859900
+bar-volume-foreground-2 = #859900
+bar-volume-foreground-3 = #859900
+bar-volume-foreground-4 = #859900
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = 
+bar-volume-indicator-font = 2
+bar-volume-fill = ─
+bar-volume-fill-font = 0
+bar-volume-empty = ─
+bar-volume-empty-font = 0
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+
+
+
+;[module/alsa]
+;type = internal/alsa
+
+;format-volume = <label-volume> <bar-volume>
+;label-volume = VOL
+;label-volume-foreground = ${root.foreground}
+
+;format-muted-prefix = " "
+;format-muted-foreground = ${colors.foreground-alt}
+;label-muted = sound muted
+
+;bar-volume-width = 10
+;bar-volume-foreground-0 = #859900
+;bar-volume-foreground-1 = #859900
+;bar-volume-foreground-2 = #859900
+;bar-volume-foreground-3 = #859900
+;bar-volume-foreground-4 = #859900
+;bar-volume-foreground-5 = #f5a70a
+;bar-volume-foreground-6 = #ff5555
+;bar-volume-gradient = false
+;bar-volume-indicator = |
+;bar-volume-indicator-font = 2
+;bar-volume-fill = ─
+;bar-volume-fill-font = 2
+;bar-volume-empty = ─
+;bar-volume-empty-font = 2
+;bar-volume-empty-foreground = ${colors.foreground-alt}
+
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = ADP1
+full-at = 98
+
+format-charging = <animation-charging> <label-charging>
+
+format-discharging = <animation-discharging> <label-discharging>
+
+format-full-prefix = "   "
+format-full-prefix-foreground = ${colors.foreground-alt}
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-foreground = ${colors.foreground-alt}
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-1-foreground = #B8BB26
+animation-charging-2 = 
+animation-charging-2-foreground = #B8BB26
+animation-charging-3 = 
+animation-charging-3-foreground = #B8BB26
+animation-charging-4 = 
+animation-charging-4-foreground = #B8BB26
+animation-charging-foreground = ${colors.foreground-alt}
+animation-charging-framerate = 750
+
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
+animation-discharging-foreground = ${colors.foreground-alt}
+animation-discharging-framerate = 750
+
+#[module/temperature]
+#type = internal/temperature
+#thermal-zone = 0
+#warn-temperature = 60
+
+#format = <ramp> <label>
+#format-warn = <ramp> <label-warn>
+#format-warn-underline = ${self.format-underline}
+
+#label = %temperature-c%
+#label-warn = %temperature-c%
+#label-warn-foreground = ${colors.secondary}
+
+#ramp-0 = 
+#ramp-1 = 
+#ramp-2 = 
+#ramp-foreground = ${colors.foreground-alt}
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format = <ramp> <label>
+format-underline = 
+format-warn = <ramp> <label-warn>
+format-warn-underline = ${self.format-underline}
+
+label = %temperature-c%
+label-warn = %temperature-c%
+label-warn-foreground = ${colors.secondary}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-2-foreground = #fc4933
+ramp-1-foreground = #B8BB26
+ramp-foreground = ${colors.foreground-alt}
+ramp-padding-left = 1
+
+
+#ramp-0 = 
+#ramp-1 = 
+#ramp-2 = 
+#ramp-foreground = ${colors.foreground-alt}
+
+
+
+
+
+;[module/speedtest]
+;type = custom/script
+;exec = ~/.config/polybar/speedtest_module/speedtest_api.py
+;tail = true
+;interval = 3600
+
+
+[module/powermenu]
+type = custom/menu
+
+expand-right = true
+
+format-spacing = 1
+
+label-open = 
+label-open-foreground = #ff0000
+label-close =  cancel
+label-close-foreground = ${colors.secondary}
+label-separator = |
+label-separator-foreground = ${colors.foreground-alt}
+
+menu-0-0 = reboot
+menu-0-0-exec = menu-open-1
+menu-0-1 = power off
+menu-0-1-exec = menu-open-2
+
+menu-1-0 = cancel
+menu-1-0-exec = menu-open-0
+menu-1-1 = reboot
+menu-1-1-exec = sudo reboot
+
+menu-2-0 = power off
+menu-2-0-exec = sudo poweroff
+menu-2-1 = cancel
+menu-2-1-exec = menu-open-0
+
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+;pseudo-transparency = false
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5
+
+; vim:ft=dosini
